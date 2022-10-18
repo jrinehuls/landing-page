@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.section-1 {
+    background-color: rgb(40, 40, 90);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section-1-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.section-1-header a {
+    color: azure;
+}
+
+.section-1-header .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:25%;
+}
+
+.section-1-header .logo {
+    font-weight: 800;
+    font-size: 18px;
+    color: azure;
+    flex-wrap: wrap;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.first .left {
+    padding-right: 10px;
+}
+
+.first .right {
+    padding-left: 10px;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    /*background-color: rgb(100, 100, 100);*/
+}
+
+.first .logo {
+    font-weight: 800;
+    font-size: 36px;
+    color: azure;
+}
+
+.first p {
+    font-size: 18px;
+    color: azure;
+    flex-wrap: wrap;
+}
+
+.first button {
+    background-color: blue;
+    padding: 12px;
+    border-radius: 8px;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.section-2-header {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.second {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-2 img {
+    border: 2px solid rgb(100,100,255);
+    border-radius: 20px;
+    width: 229px;
+    height: 229px;
+}
+
+.section-2 .text {
+    text-align: center;
+}
