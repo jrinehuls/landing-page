@@ -48,12 +48,14 @@ body {
 
 .first .left {
     margin-top: 15px;
+    margin-right: 10px;
     width: 50%;
+    min-width: 250px;
 }
 
 .first .right {
     margin-top: 15px;
-    width: 50%;
+    width: 30%;
     min-width: 225px;
     display: flex;
     justify-content: center;
@@ -137,6 +139,8 @@ a {
     margin-bottom: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: rgb(100,100,255);
     display: flex; 
     justify-content:space-evenly;  
