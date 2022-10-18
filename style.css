@@ -42,7 +42,7 @@ body {
     flex-direction: row;
     margin-top: 80px;
     margin-bottom: 80px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -51,11 +51,12 @@ body {
     margin-right: 10px;
     width: 50%;
     min-width: 250px;
+
 }
 
 .first .right {
     margin-top: 15px;
-    width: 30%;
+    width: 40%;
     min-width: 225px;
     display: flex;
     justify-content: center;
